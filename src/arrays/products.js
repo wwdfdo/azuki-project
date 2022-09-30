@@ -11,62 +11,92 @@ import nft10 from "../images/nft10.jfif";
 
 export const nfts = [
   {
+    title: "AZUKI",
+    price: "NO.5000",
     id: 1,
     name: nft1,
   },
   {
+    title: "AZUKI",
+    price: "NO.5000",
     id: 2,
     name: nft2,
   },
   {
+    title: "AZUKI",
+    price: "NO.5000",
     id: 3,
     name: nft3,
   },
   {
+    title: "AZUKI",
+    price: "NO.5000",
     id: 4,
     name: nft4,
   },
   {
+    title: "AZUKI",
+    price: "NO.5000",
     id: 5,
     name: nft5,
   },
   {
+    title: "AZUKI",
+    price: "NO.5000",
     id: 6,
     name: nft6,
   },
   {
+    title: "AZUKI",
+    price: "NO.5000",
     id: 7,
     name: nft7,
   },
   {
+    title: "AZUKI",
+    price: "NO.5000",
     id: 8,
     name: nft8,
   },
   {
+    title: "AZUKI",
+    price: "NO.5000",
     id: 9,
     name: nft9,
   },
   {
+    title: "AZUKI",
+    price: "NO.5000",
     id: 10,
     name: nft10,
   },
   {
+    title: "AZUKI",
+    price: "NO.5000",
     id: 11,
     name: nft10,
   },
   {
+    title: "AZUKI",
+    price: "NO.5000",
     id: 12,
     name: nft10,
   },
   {
+    title: "AZUKI",
+    price: "NO.5000",
     id: 13,
     name: nft10,
   },
   {
+    title: "AZUKI",
+    price: "NO.5000",
     id: 14,
     name: nft10,
   },
   {
+    title: "AZUKI",
+    price: "NO.5000",
     id: 15,
     name: nft10,
   },

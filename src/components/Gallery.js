@@ -64,7 +64,13 @@ function Gallery() {
         </div>
         <div className="grid grid-cols-5 gap-4 mt-5">
           {nfts.map((nft) => (
-            <img className=" rounded-md" src={nft.name} alt="" />
+            <div>
+              <img className=" rounded-md" src={nft.name} alt="" />
+              <div className="flex flex-col items-center mt-2 text-gray-500">
+                <p className="text-sm font-bold">{nft.title}</p>
+                <p className="text-sm font-bold">{nft.price}</p>
+              </div>
+            </div>
           ))}
         </div>
       </section>
