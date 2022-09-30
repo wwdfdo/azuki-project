@@ -1,6 +1,7 @@
 import React from "react";
 import logo from "../images/Azuki Logo White.svg";
 import { menus } from "../arrays/menus";
+import { Link } from "react-router-dom";
 
 function Header() {
   return (
@@ -12,7 +13,7 @@ function Header() {
         <ul className="flex gap-5 items-center">
           {menus.map((menu) => (
             <li className=" font-semibold text-sm px-3 h-7 text-center rounded-md flex items-center cursor-pointer bg-gray-300 bg-opacity-40 hover:bg-opacity-80">
-              {menu.name}
+              <Link to={menu.url}> {menu.name}</Link>
             </li>
           ))}
         </ul>
