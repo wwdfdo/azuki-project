@@ -4,11 +4,35 @@ import { TiArrowRepeat } from "react-icons/ti";
 import { BsArrowRightShort } from "react-icons/bs";
 import Gvideo from "../images/tbagus.mp4";
 import { nfts } from "../../src/arrays/products";
+import { GoSearch } from "react-icons/go";
+import QsectionAccordion from "./QsectionAccordion";
 
 function Gallery() {
   return (
     <div className="flex w-[98%] mx-auto justify-between pt-[5rem]">
-      <section>filter</section>
+      <section className="flex flex-col gap-8 mt-4">
+        <h2 className="text-2xl font-bold pb-8 border-b-2 border-gray-300">
+          FILTER
+        </h2>
+        <div className="text-yellow-500 font-bold text-xl border-b-2 border-gray-300 pb-2">
+          GOLDEN MODE
+        </div>
+
+        <form className="flex items-center border-b-2 border-b-gray-200 pb-2">
+          <button></button>
+          <GoSearch size={24} />
+          <input
+            className=" pl-2 outline-none rounded-lg text-lg"
+            type="search"
+            id="site-search"
+            name="q"
+            placeholder="Search by serial..."
+          />
+        </form>
+        <div>
+          <QsectionAccordion />
+        </div>
+      </section>
       <section className="flex  flex-col w-[70%]">
         <div className="flex justify-between items-center border-b-2 border-gray-300 pb-8">
           <div className="flex bg-gray-300 p-2 gap-2 rounded-lg text-lg font-bold">
