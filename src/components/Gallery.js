@@ -18,7 +18,7 @@ function Gallery() {
           GOLDEN MODE
         </div>
 
-        <form className="flex items-center border-b-[.0825rem] border-black border-opacity-10 py-4">
+        <form className="flex items-center border-b-[.0825rem] border-black border-opacity-10 py-3">
           <button></button>
           <GoSearch size={24} />
           <input
