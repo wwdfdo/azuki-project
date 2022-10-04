@@ -9,16 +9,16 @@ import QsectionAccordion from "./QsectionAccordion";
 
 function Gallery() {
   return (
-    <div className="flex w-[98%] mx-auto justify-between pt-[5rem]">
-      <section className="flex flex-col gap-8 mt-4">
-        <h2 className="text-2xl font-bold pb-8 border-b-2 border-gray-300">
+    <div className="flex w-[95%] mx-auto justify-between pt-[5rem]">
+      <section className="flex flex-col gap-2 mt-4 w-[22%]">
+        <h2 className="text-2xl font-bold pb-9 border-b-[.0825rem] border-black border-opacity-10">
           FILTER
         </h2>
-        <div className="text-yellow-500 font-bold text-xl border-b-2 border-gray-300 pb-2">
+        <div className="text-yellow-500 font-bold text-md border-b-[.0825rem] border-black border-opacity-10 pb-2 pt-5">
           GOLDEN MODE
         </div>
 
-        <form className="flex items-center border-b-2 border-b-gray-200 pb-2">
+        <form className="flex items-center border-b-[.0825rem] border-black border-opacity-10 py-4">
           <button></button>
           <GoSearch size={24} />
           <input
@@ -33,8 +33,8 @@ function Gallery() {
           <QsectionAccordion />
         </div>
       </section>
-      <section className="flex  flex-col w-[70%]">
-        <div className="flex justify-between items-center border-b-2 border-gray-300 pb-8">
+      <section className="flex  flex-col w-[75%]">
+        <div className="flex justify-between items-center border-b-[.0825rem] border-black border-opacity-10 pb-8">
           <div className="flex bg-gray-300 p-2 gap-2 rounded-lg text-lg font-bold">
             <button className=" bg-gray-400 w-20 p-1 rounded-lg focus:bg-slate-200">
               AZUKI

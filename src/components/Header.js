@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 function Header() {
   return (
     <div className="w-full flex justify-center">
-      <div className=" fixed flex justify-between min-h-[100px] items-center w-[98%] mx-auto z-10  ">
+      <div className=" fixed flex justify-between min-h-[100px] items-center w-[95%] mx-auto z-10  ">
         <div className="p-2 bg-red-500 rounded-md">
           <img className="w-16 " src={logo} alt="" />
         </div>
