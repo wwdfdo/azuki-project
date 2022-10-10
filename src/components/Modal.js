@@ -14,7 +14,7 @@ function Modal(props) {
   return (
     <div className="flex justify-center items-center relative">
       <div
-        className={` w-4/5 ${bgcolor} flex justify-between items-center fixed top-[20%] z-50 rounded-xl gap-20 p-10`}
+        className={` w-4/5 ${bgcolor} flex justify-between items-center fixed top-[10%] bottom-[10%] z-50 rounded-xl gap-20 p-10`}
       >
         <img src={modalImg} className="w-1/3 ml-10" alt="" />
         <div className="w-2/3 flex flex-col gap-5">
