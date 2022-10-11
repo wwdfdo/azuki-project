@@ -11,7 +11,7 @@ function Modal(props) {
   return (
     <div className="flex justify-center items-center relative">
       <div
-        className={` w-[77%] ${bgcolor} flex justify-between fixed top-[12%] bottom-[12%] z-50 rounded-2xl `}
+        className={` w-[76%] ${bgcolor} flex justify-between fixed top-[12%] bottom-[12%] z-50 rounded-2xl `}
       >
         <img src={modalImg} className="max-w-full rounded-2xl" alt="" />
         <div className="w-2/3 flex flex-col justify-between px-10 py-8">
