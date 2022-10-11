@@ -11,11 +11,11 @@ function Modal(props) {
   return (
     <div className="flex justify-center items-center relative">
       <div
-        className={` w-4/5 ${bgcolor} flex justify-between fixed top-[10%] bottom-[10%] z-50 rounded-xl gap-8`}
+        className={` w-[77%] ${bgcolor} flex justify-between fixed top-[12%] bottom-[12%] z-50 rounded-2xl `}
       >
-        <img src={modalImg} className="max-w-full rounded-xl" alt="" />
-        <div className="w-2/3 flex flex-col gap-10 justify-center p-10">
-          <div className="w-full  flex items-center bg-black bg-opacity-10 py-2 px-4 gap-3 rounded-xl text-white font-semibold">
+        <img src={modalImg} className="max-w-full rounded-2xl" alt="" />
+        <div className="w-2/3 flex flex-col justify-between px-10 py-8">
+          <div className="w-full  flex items-center bg-black bg-opacity-10 py-2 px-4 gap-3 rounded-lg text-white font-semibold">
             <span className=" text-4xl opacity-30">#</span>
             <div className=" flex flex-col">
               <span className="text-sm opacity-30">AZUKI</span>
@@ -35,7 +35,7 @@ function Modal(props) {
               </div>
             ))}
           </div>
-          <div className="w-full  flex justify-between items-center bg-black bg-opacity-10 px-4 py-3 gap-5 rounded-xl text-white ">
+          <div className="w-full  flex justify-between items-center bg-black bg-opacity-10 px-4 py-3 gap-5 rounded-lg text-white ">
             <div>view on :</div>
             <div className="flex gap-2">
               <div>
