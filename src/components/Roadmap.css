@@ -1,0 +1,22 @@
+.survivors {
+  clip-path: url(#survivors-clip);
+}
+
+.item-parishoot {
+  clip-path: url(#what-clip);
+}
+
+.bottle {
+  clip-path: url(#atsui-clip);
+}
+
+.fourth-card {
+  clip-path: url(#enter-clip);
+}
+
+.fifth-card {
+  clip-path: url(#summit-clip);
+}
+.sixth-card {
+  clip-path: url(#partner-clip);
+}

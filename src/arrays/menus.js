@@ -21,8 +21,8 @@ export const menus = [
   },
   {
     id: 4,
-    name: "MINDMAP",
-    url: "/",
+    name: "ROADMAP",
+    url: "/roadmap",
   },
   {
     id: 5,
