@@ -1,6 +1,7 @@
 import React from "react";
 import "./Roadmap.css";
 import girl from "../images/cartoon-girl.webp";
+import parishoots from "../images/parishoots.webp";
 
 function Roadmap() {
   return (
@@ -23,7 +24,7 @@ function Roadmap() {
               <path d="M0,0.042 C0,0.019,0.03,0,0.066,0 H0.934 C0.973,0,1,0.022,1,0.046 L0.839,0.963 C0.836,0.984,0.807,1,0.774,1 H0.066 C0.03,1,0,0.981,0,0.958 V0.042"></path>
             </clipPath>
           </svg>
-          <div className=" number animation absolute top-0 left-12">01</div>
+          <div className=" number animation absolute top-3 left-8">01</div>
           <div className="flex items-center text-2xl font-semibold absolute top-[7rem] left-4 animation survivor-title ">
             <span className="animation flex items-center font-extrabold animation survivor-arrow opacity-0 ">
               &#62;
@@ -45,15 +46,24 @@ function Roadmap() {
           </div>
         </div>
         <div className="relative w-[293px]">
-          <div className="bg-red-500 item-parishoot w-[314px] h-[283px] item relative">
+          <div className="bg-blue-700 item-parishoot w-[314px] h-[283px] item relative">
             <svg class="clips">
               <clipPath id="what-clip" clipPathUnits="objectBoundingBox">
                 <path d="M0.089,0.063 C0.092,0.027,0.12,0,0.153,0 H0.887 C0.921,0,0.949,0.029,0.951,0.066 L1,0.819 C1,0.857,0.979,0.891,0.944,0.895 L0.074,1 C0.032,1,-0.002,0.966,0.002,0.921 L0.089,0.063"></path>
               </clipPath>
             </svg>
-            <span className="number absolute left-10 bottom-6 animation">
+            <span className="number absolute left-10 bottom-16 animation">
               02
             </span>
+            <div className=" flex items-center text-2xl font-bold tracking-widest absolute bottom-10 left-10 animation atsui-question text-white">
+              <span className="animation flex items-center font-[900] animation survivor-arrow opacity-0 ">
+                &#62;
+              </span>
+              ??????
+            </div>
+            <div className="absolute -top-10 right-6 parishoots animation">
+              <img src={parishoots} className="w-[13rem]" alt="" />
+            </div>
 
             <div className="absolute z-[100] top-0 opacity-0 card-outline ">
               <svg width="314" height="283" viewBox="0 0 311 281" fill="none">
@@ -71,6 +81,15 @@ function Roadmap() {
                 <path d="M0.048,0.225 C0.051,0.181,0.072,0.147,0.099,0.142 L0.9,0.001 C0.932,-0.005,0.961,0.034,0.963,0.087 L1,0.899 C1,0.954,0.977,1,0.944,1 H0.058 C0.024,1,-0.002,0.952,0.001,0.896 L0.048,0.225"></path>
               </clipPath>
             </svg>
+            <span className="number absolute bottom-8 left-12 animation">
+              03
+            </span>
+            <div className=" flex items-center text-2xl font-bold absolute text-white bottom-4 left-8 atsui-house animation">
+              <span className="animation flex items-center font-[900] animation survivor-arrow opacity-0 ">
+                &#62;
+              </span>
+              ATSUI HOUSE
+            </div>
             <div className="absolute top-0 z-[100] opacity-0 card-outline ">
               <svg width="353" height="215" viewBox="0 0 350 213" fill="none">
                 <path

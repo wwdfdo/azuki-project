@@ -24,7 +24,7 @@
 .number {
   -webkit-text-stroke: 1px #000;
   color: white;
-  font-size: 5rem;
+  font-size: 4.7rem;
   font-weight: 900;
 }
 
@@ -38,6 +38,13 @@
 .item:hover .survivor-title {
   transform: translate3d(10%, 0, 0);
 }
+.item:hover .atsui-question {
+  transform: translate3d(10%, 0, 0);
+}
+
+.item:hover .atsui-house {
+  transform: translate3d(10%, 0, 0);
+}
 .item:hover .number {
   transform: translate3d(-20%, 0, 0);
 }
@@ -45,5 +52,8 @@
   opacity: 1;
 }
 .item:hover .survivor-girl {
+  transform: translate3d(10%, 0, 0) scale(1.3);
+}
+.item:hover .parishoots {
   transform: translate3d(10%, 0, 0) scale(1.3);
 }
