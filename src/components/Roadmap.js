@@ -4,6 +4,9 @@ import girl from "../images/cartoon-girl.webp";
 import parishoots from "../images/parishoots.webp";
 import bottle from "../images/bottle.webp";
 import lostSurvivors from "../images/lost-survivors.webp";
+import speaker from "../images/speaker.webp";
+import { IoIosLock } from "react-icons/io";
+import backGirl from "../images/back-girl.webp";
 
 function Roadmap() {
   return (
@@ -133,12 +136,24 @@ function Roadmap() {
             </svg>
           </div>
         </div>
-        <div className="bg-blue-400 w-[278px]  h-[480px] relative fifth-card ml-6 item">
+        <div className=" bg-gray-700 w-[278px]  h-[480px] relative fifth-card ml-6 item">
           <svg class="clips">
             <clipPath id="summit-clip" clipPathUnits="objectBoundingBox">
               <path d="M0.003,0.043 C0.001,0.02,0.035,0,0.077,0 H0.928 C0.972,0,1,0.021,1,0.046 L0.832,0.963 C0.828,0.984,0.796,1,0.758,1 H0.133 C0.093,1,0.06,0.982,0.059,0.96 L0.003,0.043"></path>
             </clipPath>
           </svg>
+          <span className="number absolute bottom-10 left-10 animation">
+            05
+          </span>
+          <div className=" flex items-center text-xl font-bold absolute text-white bottom-6 left-8 atsui-house animation">
+            <span className="animation flex items-center font-[900] animation survivor-arrow opacity-0 ">
+              &#62;
+            </span>
+            SUMMIT
+          </div>
+          <div className="absolute w-[97%] left-0 top-4 speaker animation">
+            <img src={speaker} alt="" />
+          </div>
           <div className="absolute top-0 z-[100] opacity-0 card-outline ">
             <svg width="278" height="480" viewBox="0 0 278 480" fill="none">
               <path
@@ -149,12 +164,22 @@ function Roadmap() {
             </svg>
           </div>
         </div>
-        <div className="bg-blue-400 w-[283px] h-[480px] relative sixth-card -ml-4 item">
+        <div className="bg-gray-500 w-[283px] h-[480px] relative sixth-card -ml-4 item">
           <svg class="clips">
             <clipPath id="partner-clip" clipPathUnits="objectBoundingBox">
               <path d="M0.176,0.037 C0.18,0.016,0.21,0,0.246,0 H0.932 C0.971,0,1,0.019,1,0.042 V0.5 V0.958 C1,0.981,0.971,1,0.932,1 H0.074 C0.032,1,-0.001,0.978,0.003,0.954 L0.176,0.037"></path>
             </clipPath>
           </svg>
+          <span className=" absolute top-5 left-[50%] animation text-slate-300">
+            <IoIosLock size={48} />
+          </span>
+          <div className="text-xl font-bold absolute text-white top-16 left-[30%] school-girl animation text-center opacity-0 revealed">
+            REVEALED after <br />
+            MINT Phase 2
+          </div>
+          <div className="absolute bottom-8 back-girl animation">
+            <img src={backGirl} alt="" />
+          </div>
           <div className="absolute top-0 opacity-0  z-[100] card-outline">
             <svg width="283" height="480" viewBox="0 0 283 480" fill="none">
               <path
