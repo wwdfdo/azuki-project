@@ -1,5 +1,6 @@
 import React from "react";
 import "./Roadmap.css";
+import girl from "../images/cartoon-girl.webp";
 
 function Roadmap() {
   return (
@@ -22,14 +23,15 @@ function Roadmap() {
               <path d="M0,0.042 C0,0.019,0.03,0,0.066,0 H0.934 C0.973,0,1,0.022,1,0.046 L0.839,0.963 C0.836,0.984,0.807,1,0.774,1 H0.066 C0.03,1,0,0.981,0,0.958 V0.042"></path>
             </clipPath>
           </svg>
-          <div className="text-4xl stroke-white text-white font-bold absolute top-0 number animation">
-            1
-          </div>
-          <div className="flex items-center text-3xl absolute top-[7rem] left-4 animation ">
-            <span className="animation flex items-center font-extrabold animation ">
+          <div className=" number animation absolute top-0 left-12">01</div>
+          <div className="flex items-center text-2xl font-semibold absolute top-[7rem] left-4 animation survivor-title ">
+            <span className="animation flex items-center font-extrabold animation survivor-arrow opacity-0 ">
               &#62;
             </span>
             Survivors
+          </div>
+          <div className=" absolute bottom-0 right-0 animation survivor-girl">
+            <img src={girl} alt="" />
           </div>
 
           <div className="absolute z-[100] top-0 opacity-0 card-outline ">
@@ -43,13 +45,16 @@ function Roadmap() {
           </div>
         </div>
         <div className="relative w-[293px]">
-          <div className="bg-red-500 item-parishoot w-[314px] h-[283px] item">
+          <div className="bg-red-500 item-parishoot w-[314px] h-[283px] item relative">
             <svg class="clips">
               <clipPath id="what-clip" clipPathUnits="objectBoundingBox">
                 <path d="M0.089,0.063 C0.092,0.027,0.12,0,0.153,0 H0.887 C0.921,0,0.949,0.029,0.951,0.066 L1,0.819 C1,0.857,0.979,0.891,0.944,0.895 L0.074,1 C0.032,1,-0.002,0.966,0.002,0.921 L0.089,0.063"></path>
               </clipPath>
             </svg>
-            <span className="text-6xl top-10 absolute left-10">2</span>
+            <span className="number absolute left-10 bottom-6 animation">
+              02
+            </span>
+
             <div className="absolute z-[100] top-0 opacity-0 card-outline ">
               <svg width="314" height="283" viewBox="0 0 311 281" fill="none">
                 <path
@@ -126,6 +131,7 @@ function Roadmap() {
           </div>
         </div>
       </div>
+      <div className="mt-10">galjgaljglajglaj</div>
     </div>
   );
 }

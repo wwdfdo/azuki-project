@@ -22,12 +22,10 @@
 }
 
 .number {
-  position: absolute;
-  left: 1rem;
-  top: 3rem;
   -webkit-text-stroke: 1px #000;
   color: white;
-  font-size: 4rem;
+  font-size: 5rem;
+  font-weight: 900;
 }
 
 .animation {
@@ -35,4 +33,17 @@
 }
 .item:hover .card-outline {
   opacity: 1;
+}
+
+.item:hover .survivor-title {
+  transform: translate3d(10%, 0, 0);
+}
+.item:hover .number {
+  transform: translate3d(-20%, 0, 0);
+}
+.item:hover .survivor-arrow {
+  opacity: 1;
+}
+.item:hover .survivor-girl {
+  transform: translate3d(10%, 0, 0) scale(1.3);
 }
