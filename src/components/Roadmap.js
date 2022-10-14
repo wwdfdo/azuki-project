@@ -3,6 +3,7 @@ import "./Roadmap.css";
 import girl from "../images/cartoon-girl.webp";
 import parishoots from "../images/parishoots.webp";
 import bottle from "../images/bottle.webp";
+import lostSurvivors from "../images/lost-survivors.webp";
 
 function Roadmap() {
   return (
@@ -106,12 +107,22 @@ function Roadmap() {
             </div>
           </div>
         </div>
-        <div className="bg-blue-400 w-[277px] h-[480px] relative fourth-card ml-8 item">
+        <div className="bg-blue-600 w-[277px] h-[480px] relative fourth-card ml-8 item">
           <svg class="clips">
             <clipPath id="enter-clip" clipPathUnits="objectBoundingBox">
               <path d="M0.002,0.045 C-0.001,0.021,0.033,0,0.075,0 H0.867 C0.906,0,0.939,0.018,0.94,0.04 L1,0.957 C1,0.98,0.97,1,0.929,1 H0.195 C0.157,1,0.125,0.983,0.123,0.961 L0.002,0.045"></path>
             </clipPath>
           </svg>
+          <span className="number absolute top-0 left-10 animation">04</span>
+          <div className=" flex items-center text-xl font-bold absolute text-white top-[6rem] left-8 atsui-house animation">
+            <span className="animation flex items-center font-[900] animation survivor-arrow opacity-0 ">
+              &#62;
+            </span>
+            LOST SURVIVOR
+          </div>
+          <div className=" absolute w-4/5 right-0 bottom-3 lost-survivor animation">
+            <img src={lostSurvivors} alt="" />
+          </div>
           <div className="absolute top-0 z-[100] opacity-0 card-outline">
             <svg width="276" height="480" viewBox="0 0 276 480" fill="none">
               <path

@@ -60,3 +60,6 @@
 .item:hover .bottle {
   transform: translate3d(10%, 0, 0) scale(1.4);
 }
+.item:hover .lost-survivor {
+  transform: translate3d(5%, 0, 0) scale(1.2);
+}
