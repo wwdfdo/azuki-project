@@ -2,6 +2,7 @@ import React from "react";
 import "./Roadmap.css";
 import girl from "../images/cartoon-girl.webp";
 import parishoots from "../images/parishoots.webp";
+import bottle from "../images/bottle.webp";
 
 function Roadmap() {
   return (
@@ -81,15 +82,19 @@ function Roadmap() {
                 <path d="M0.048,0.225 C0.051,0.181,0.072,0.147,0.099,0.142 L0.9,0.001 C0.932,-0.005,0.961,0.034,0.963,0.087 L1,0.899 C1,0.954,0.977,1,0.944,1 H0.058 C0.024,1,-0.002,0.952,0.001,0.896 L0.048,0.225"></path>
               </clipPath>
             </svg>
-            <span className="number absolute bottom-8 left-12 animation">
+            <span className="number absolute bottom-12 left-12 animation">
               03
             </span>
-            <div className=" flex items-center text-2xl font-bold absolute text-white bottom-4 left-8 atsui-house animation">
+            <div className=" flex items-center text-xl font-bold absolute text-white bottom-8 left-8 atsui-house animation">
               <span className="animation flex items-center font-[900] animation survivor-arrow opacity-0 ">
                 &#62;
               </span>
               ATSUI HOUSE
             </div>
+            <div className=" absolute bottom-5 w-[10rem] right-4 bottle animation">
+              <img src={bottle} alt="" />
+            </div>
+
             <div className="absolute top-0 z-[100] opacity-0 card-outline ">
               <svg width="353" height="215" viewBox="0 0 350 213" fill="none">
                 <path
