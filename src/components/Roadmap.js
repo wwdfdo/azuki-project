@@ -191,7 +191,19 @@ function Roadmap() {
           </div>
         </div>
       </div>
-      <div className="mt-10">galjgaljglajglaj</div>
+      <div id="rssBlock">
+        <p class="cnnContents">
+          <span class="marqueeStyle">
+            &nbsp;continuous infinite text loop 1 continuous infinite text loop
+            2
+          </span>
+
+          <span class="marqueeStyle2">
+            &nbsp;continuous infinite text loop 3 continuous infinite text loop
+            4&nbsp;
+          </span>
+        </p>
+      </div>
     </div>
   );
 }
