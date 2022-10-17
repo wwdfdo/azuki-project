@@ -13,7 +13,7 @@ function Roadmap() {
     <div className="w-[95%] mx-auto pt-[5rem]">
       <div className=" flex flex-col">
         <h1 className="text-[8.75rem] font-extrabold">
-          ROAD<span className="text-blue-700">MAP*</span>
+          ROAD<span className="text-[#c03540]">MAP*</span>
         </h1>
         <p className="text-[1.3rem] font-semibold ">
           Our vision is to underpromise & overdeliver - after all, this is how
@@ -51,7 +51,7 @@ function Roadmap() {
           </div>
         </div>
         <div className="relative w-[293px]">
-          <div className="bg-blue-700 item-parishoot w-[314px] h-[283px] item relative">
+          <div className="bg-[#c03540] item-parishoot w-[314px] h-[283px] item relative">
             <svg class="clips">
               <clipPath id="what-clip" clipPathUnits="objectBoundingBox">
                 <path d="M0.089,0.063 C0.092,0.027,0.12,0,0.153,0 H0.887 C0.921,0,0.949,0.029,0.951,0.066 L1,0.819 C1,0.857,0.979,0.891,0.944,0.895 L0.074,1 C0.032,1,-0.002,0.966,0.002,0.921 L0.089,0.063"></path>
@@ -110,7 +110,7 @@ function Roadmap() {
             </div>
           </div>
         </div>
-        <div className="bg-blue-600 w-[277px] h-[480px] relative fourth-card ml-8 item">
+        <div className="bg-[#c03540] w-[277px] h-[480px] relative fourth-card ml-8 item">
           <svg class="clips">
             <clipPath id="enter-clip" clipPathUnits="objectBoundingBox">
               <path d="M0.002,0.045 C-0.001,0.021,0.033,0,0.075,0 H0.867 C0.906,0,0.939,0.018,0.94,0.04 L1,0.957 C1,0.98,0.97,1,0.929,1 H0.195 C0.157,1,0.125,0.983,0.123,0.961 L0.002,0.045"></path>
@@ -191,18 +191,23 @@ function Roadmap() {
           </div>
         </div>
       </div>
-      <div id="rssBlock">
-        <p class="cnnContents">
-          <span class="marqueeStyle">
-            &nbsp;continuous infinite text loop 1 continuous infinite text loop
-            2
-          </span>
-
-          <span class="marqueeStyle2">
-            &nbsp;continuous infinite text loop 3 continuous infinite text loop
-            4&nbsp;
-          </span>
-        </p>
+      <div id="app" className=" p-20 overflow-hidden">
+        <div class="wrapper one text-4xl flex">
+          <h1 className="flex">&#62; &#62; &#62; STAGE 1</h1>
+          <h1 className="flex">&#62; &#62; &#62; STAGE 1</h1>
+          <h1 className="flex">&#62; &#62; &#62; STAGE 1</h1>
+          <h1 className="flex">&#62; &#62; &#62; STAGE 1</h1>
+          <h1 className="flex">&#62; &#62; &#62; STAGE 1</h1>
+          <h1 className="flex">&#62; &#62; &#62; STAGE 1</h1>
+        </div>
+        <div class="wrapper two text-4xl">
+          <h1 className="flex">&#62; &#62; &#62; STAGE 1</h1>
+          <h1 className="flex">&#62; &#62; &#62; STAGE 1</h1>
+          <h1 className="flex">&#62; &#62; &#62; STAGE 1</h1>
+          <h1 className="flex">&#62; &#62; &#62; STAGE 1</h1>
+          <h1 className="flex">&#62; &#62; &#62; STAGE 1</h1>
+          <h1 className="flex">&#62; &#62; &#62; STAGE 1</h1>
+        </div>
       </div>
     </div>
   );
