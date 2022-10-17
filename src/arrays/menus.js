@@ -17,7 +17,7 @@ export const menus = [
   {
     id: 3,
     name: "WORLD",
-    url: "/",
+    url: "/worldbg",
   },
   {
     id: 4,
