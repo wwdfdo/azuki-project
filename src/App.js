@@ -6,6 +6,7 @@ import Gallery from "./components/Gallery";
 import Layout from "./components/Layout";
 import Roadmap from "./components/Roadmap";
 import Worldbg from "./components/Worldbg";
+import RoadmapTwo from "./components/RoadmapTwo";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route path="/gallery" element={<Gallery />} />
           <Route path="/roadmap" element={<Roadmap />} />
           <Route path="/worldbg" element={<Worldbg />} />
+          <Route path="/roadmapTwo" element={<RoadmapTwo />} />
         </Routes>
       </Layout>
     </div>
