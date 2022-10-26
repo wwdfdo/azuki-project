@@ -7,6 +7,7 @@ import Layout from "./components/Layout";
 import Roadmap from "./components/Roadmap";
 import Worldbg from "./components/Worldbg";
 import RoadmapTwo from "./components/RoadmapTwo";
+import RoadmapThree from "./components/RoadmapThree";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path="/roadmap" element={<Roadmap />} />
           <Route path="/worldbg" element={<Worldbg />} />
           <Route path="/roadmapTwo" element={<RoadmapTwo />} />
+          <Route path="/roadmapThree" element={<RoadmapThree />} />
         </Routes>
       </Layout>
     </div>

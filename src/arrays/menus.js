@@ -32,7 +32,7 @@ export const menus = [
   {
     id: 6,
     name: "BUY",
-    url: "/",
+    url: "/roadmapThree",
   },
   {
     id: 7,
