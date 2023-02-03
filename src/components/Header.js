@@ -20,7 +20,7 @@ function Header() {
           {menus.map((menu) => (
             <Link
               to={menu.url}
-              className="focus:underline focus:bg-opacity-80 hover:bg-opacity-80   bg-opacity-40 bg-[#d6d4d1] tracking-[.1825rem] font-medium text-[0.58rem] px-3 h-7 text-center rounded-md flex items-center cursor-pointer "
+              className="focus:underline focus:bg-opacity-80 hover:bg-opacity-80   bg-opacity-40 bg-[#d6d4d1] tracking-[.1825rem] font-bold text-[0.7rem] px-3 h-7 text-center rounded-md flex items-center cursor-pointer "
             >
               <li> {menu.name}</li>
             </Link>
