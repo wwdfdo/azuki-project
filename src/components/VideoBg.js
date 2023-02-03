@@ -14,7 +14,7 @@ function VideoBg() {
         <img src={Rock} className="w-20 absolute left-2 bottom-1" alt="" />
         <div className="relative ml-28 text-white font-semibold">
           <p>THE WORD OF</p>
-          <h2>AZUKI //</h2>
+          <h2 className=" uppercase">The Outlaw's Last Ride //</h2>
         </div>
         <button className="bg-white mr-10 px-6 py-2 flex items-center font-bold ">
           DISCOVER{" "}
