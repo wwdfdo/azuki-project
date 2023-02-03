@@ -8,7 +8,13 @@ function Header() {
     <div className="w-full flex justify-center">
       <div className=" fixed flex justify-between min-h-[100px] items-center w-[95%] mx-auto z-10  ">
         <div className="p-2 bg-red-500 rounded-md">
-          <img className="w-16 " src={logo} alt="" />
+          <Link to="/">
+            {" "}
+            {/* <img className="w-16 " src={logo} alt="" /> */}
+            <p className="text-white uppercase font-extrabold text-sm">
+              The Outlaw's Last Ride
+            </p>
+          </Link>
         </div>
         <ul className="flex gap-5 items-center">
           {menus.map((menu) => (
