@@ -2,6 +2,7 @@ import React from "react";
 import logo from "../images/Azuki Logo White.svg";
 import { menus } from "../arrays/menus";
 import { Link } from "react-router-dom";
+import { menuButtons } from "../arrays/menuButtons";
 
 function Header() {
   return (
@@ -23,6 +24,17 @@ function Header() {
               className="focus:underline focus:bg-opacity-80 hover:bg-opacity-80   bg-opacity-40 bg-[#d6d4d1] tracking-[.1825rem] font-bold text-[0.7rem] px-3 h-7 text-center rounded-md flex items-center cursor-pointer uppercase "
             >
               <li> {menu.name}</li>
+            </Link>
+          ))}
+        </ul>
+
+        <ul className="flex gap-5 items-center">
+          {menuButtons.map((menuButton) => (
+            <Link
+              to={menuButton.url}
+              className="focus:underline focus:bg-opacity-80 hover:bg-opacity-80   bg-opacity-40 bg-[#d6d4d1] tracking-[.1825rem] font-bold text-[0.7rem] px-3 h-7 text-center rounded-md flex items-center cursor-pointer uppercase "
+            >
+              <li> {menuButton.name}</li>
             </Link>
           ))}
         </ul>
