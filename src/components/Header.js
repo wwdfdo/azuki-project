@@ -7,7 +7,7 @@ import { menuButtons } from "../arrays/menuButtons";
 function Header() {
   return (
     <div className="w-full flex justify-center">
-      <div className=" fixed flex justify-between min-h-[100px] items-center w-[95%] mx-auto z-10  ">
+      <div className=" fixed flex justify-around min-h-[100px] items-center w-[95%]  z-10 ">
         <div className="p-2  rounded-md">
           <Link to="/">
             {" "}
