@@ -21,7 +21,7 @@ function Header() {
           {menus.map((menu) => (
             <Link
               to={menu.url}
-              className="focus:underline focus:bg-opacity-80 hover:bg-opacity-80   bg-opacity-40  tracking-[.1825rem] font-bold text-[0.8rem] px-3 h-7 text-center rounded-md flex items-center cursor-pointer uppercase "
+              className="tracking-[.1825rem] font-bold text-[0.8rem] px-3 h-7 text-center rounded-md flex items-center cursor-pointer uppercase "
             >
               <li> {menu.name}</li>
             </Link>
@@ -32,7 +32,7 @@ function Header() {
           {menuButtons.map((menuButton) => (
             <Link
               to={menuButton.url}
-              className="focus:underline focus:bg-opacity-80 hover:bg-opacity-80   bg-opacity-40  tracking-[.1825rem] font-bold text-[0.8rem] px-3 h-7 text-center rounded-md flex items-center cursor-pointer uppercase "
+              className="tracking-[.1825rem] font-bold text-[0.8rem] px-3 h-7 text-center rounded-md flex items-center cursor-pointer uppercase "
             >
               <li> {menuButton.name}</li>
             </Link>
