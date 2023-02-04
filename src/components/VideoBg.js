@@ -12,7 +12,7 @@ function VideoBg() {
         <source src={Branz} type="video/mp4" />
       </video> */}
       <img
-        className="w-[540px] absolute top-[12%] right-[13%] "
+        className="w-[560px] absolute top-[10%] right-[13%] "
         src={Cowgirl}
         alt=""
       />
