@@ -11,8 +11,18 @@ function VideoBg() {
       {/* <video loop autoPlay muted className="w-full h-screen object-cover">
         <source src={Branz} type="video/mp4" />
       </video> */}
+      <div className="absolute top-[30%] left-[10%] flex flex-col gap-5 ">
+        <h2 className="text-[3.8rem] font-bold ">
+          Embark on a Journey with <br /> John Marston in <br />
+          The Outlaw's Last Ride
+        </h2>
+        <h2 className="text-xl ">
+          Discover the Untold Story of the Wild West as You Track Down <br />
+          Your Former Gang and Make a Final Stand
+        </h2>
+      </div>
       <img
-        className="w-[570px] absolute top-[10%] right-[13%] "
+        className="w-[560px] absolute top-[11%] right-[13%] "
         src={Cowgirl}
         alt=""
       />

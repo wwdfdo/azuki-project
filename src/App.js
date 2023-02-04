@@ -1,4 +1,3 @@
-import "./App.css";
 // import Header from "./components/Header";
 import VideoBg from "./components/VideoBg";
 import { Route, Routes } from "react-router-dom";
