@@ -14,7 +14,7 @@ function VideoBg() {
       <div className="  w-full flex justify-center gap-[10%]  bottom-0 pb-36 xl-pb-48  ">
         <div className="  flex flex-col gap-5 justify-start ">
           <h2 className="text-[3.8rem] xl-text-[4.2rem] font-bold ">
-            Embark on a Journey with <br /> John Marston in <br />
+            Embark on a Journey with <br /> Abigail Marston in <br />
             The Outlaw's Last Ride
           </h2>
           <h2 className="text-xl ">
