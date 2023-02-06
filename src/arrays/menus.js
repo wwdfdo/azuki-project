@@ -12,27 +12,27 @@ export const menus = [
   {
     id: 2,
     name: "GALLERY",
-    url: "/gallery",
+    // url: "/gallery",
   },
   {
     id: 3,
     name: "WORLD",
-    url: "/worldbg",
+    // url: "/worldbg",
   },
   {
     id: 4,
     name: "ROADMAP",
-    url: "/roadmap",
+    // url: "/roadmap",
   },
   {
     id: 5,
     name: "MORE",
-    url: "/roadmapTwo",
+    // url: "/roadmapTwo",
   },
   {
     id: 6,
     name: "BUY",
-    url: "/roadmapThree",
+    // url: "/roadmapThree",
   },
 
   // {
