@@ -22,7 +22,11 @@ function VideoBg() {
             Your Former Gang and Make a Final Stand
           </h2>
         </div>
-        <img className="w-[22%] xl-w-[28%]" src={Cowgirl} alt="" />
+        <img
+          className="w-[22%] xl-w-[28%] -mt-10 -mr-10"
+          src={Cowgirl}
+          alt=""
+        />
       </div>
       <div className="flex absolute  bottom-5 right-5 w-1/2 bg-red-800 h-24 z-20  items-center justify-between rounded-md shadow-lg">
         <img src={Rock} className="w-20 absolute left-2 bottom-1" alt="" />
