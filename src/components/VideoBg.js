@@ -11,21 +11,19 @@ function VideoBg() {
       {/* <video loop autoPlay muted className="w-full h-screen object-cover">
         <source src={Branz} type="video/mp4" />
       </video> */}
-      <div className="absolute top-[30%] left-[10%] flex flex-col gap-5 ">
-        <h2 className="text-[3.8rem] font-bold ">
-          Embark on a Journey with <br /> John Marston in <br />
-          The Outlaw's Last Ride
-        </h2>
-        <h2 className="text-xl ">
-          Discover the Untold Story of the Wild West as You Track Down <br />
-          Your Former Gang and Make a Final Stand
-        </h2>
+      <div className="absolute w-full flex justify-center top-[10%]">
+        <div className="  flex flex-col gap-5 justify-center ">
+          <h2 className="text-[3.8rem] font-bold ">
+            Embark on a Journey with <br /> John Marston in <br />
+            The Outlaw's Last Ride
+          </h2>
+          <h2 className="text-xl ">
+            Discover the Untold Story of the Wild West as You Track Down <br />
+            Your Former Gang and Make a Final Stand
+          </h2>
+        </div>
+        <img className="w-[560px]   " src={Cowgirl} alt="" />
       </div>
-      <img
-        className="w-[560px] absolute top-[11%] right-[13%] "
-        src={Cowgirl}
-        alt=""
-      />
       <div className="flex absolute w-1/2 bg-red-800 h-24 z-20 bottom-4 right-5 items-center justify-between rounded-md shadow-lg">
         <img src={Rock} className="w-20 absolute left-2 bottom-1" alt="" />
         <div className="relative ml-28 text-white font-semibold">
