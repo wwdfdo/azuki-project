@@ -6,7 +6,7 @@
 export const menus = [
   {
     id: 1,
-    name: "Beans",
+    name: "Home",
     url: "/",
   },
   {
