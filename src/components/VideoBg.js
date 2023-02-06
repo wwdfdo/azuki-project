@@ -11,7 +11,7 @@ function VideoBg() {
       {/* <video loop autoPlay muted className="w-full h-screen object-cover">
         <source src={Branz} type="video/mp4" />
       </video> */}
-      <div className=" absolute w-full flex justify-between bottom-0 pb-20 px-[10%] ">
+      <div className=" absolute w-full flex justify-between bottom-0 pb-24 px-[10%] ">
         <div className="  flex flex-col gap-5 justify-center ">
           <h2 className="text-[3.8rem] font-bold ">
             Embark on a Journey with <br /> John Marston in <br />
@@ -22,7 +22,7 @@ function VideoBg() {
             Your Former Gang and Make a Final Stand
           </h2>
         </div>
-        <img className="w-[590px]   " src={Cowgirl} alt="" />
+        <img className="w-[560px]   " src={Cowgirl} alt="" />
       </div>
       <div className="flex absolute  bottom-5 right-5 w-1/2 bg-red-800 h-24 z-20  items-center justify-between rounded-md shadow-lg">
         <img src={Rock} className="w-20 absolute left-2 bottom-1" alt="" />
