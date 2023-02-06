@@ -23,7 +23,7 @@ function VideoBg() {
           </h2>
         </div>
         <img
-          className="w-[22%] xl-w-[28%] -mt-10 -mr-10"
+          className="w-[22%] xl-w-[30%] -mt-10 -mr-10"
           src={Cowgirl}
           alt=""
         />
