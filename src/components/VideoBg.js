@@ -11,7 +11,7 @@ function VideoBg() {
       {/* <video loop autoPlay muted className="w-full h-screen object-cover">
         <source src={Branz} type="video/mp4" />
       </video> */}
-      <div className=" absolute w-full flex justify-between bottom-0 pb-24 px-[10%] ">
+      <div className=" absolute w-full flex justify-center bottom-0 pb-24  ">
         <div className="  flex flex-col gap-5 justify-center ">
           <h2 className="text-[3.8rem] font-bold ">
             Embark on a Journey with <br /> John Marston in <br />
