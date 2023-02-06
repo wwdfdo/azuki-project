@@ -7,7 +7,7 @@ import "./VideoBg.css";
 
 function VideoBg() {
   return (
-    <div className="relative  w-full h-screen azuki-home-bg flex items-center">
+    <div className="relative  w-full h-screen azuki-home-bg flex items-end">
       {/* <video loop autoPlay muted className="w-full h-screen object-cover">
         <source src={Branz} type="video/mp4" />
       </video> */}
