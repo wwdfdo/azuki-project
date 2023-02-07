@@ -3,11 +3,31 @@ import logo from "../images/outlawlogo.png";
 import { menus } from "../arrays/menus";
 import { Link } from "react-router-dom";
 import { menuButtons } from "../arrays/menuButtons";
+import { useEffect, useState } from "react";
 
 function Header() {
+  const [headerColor, SetHeaderColor] = useState(false);
+
+  const changeHeaderBg = () => {
+    console.log(window.scrollY);
+    if (window.scrollY > 0) {
+      SetHeaderColor(true);
+    } else {
+      SetHeaderColor(false);
+    }
+  };
+
+  useEffect(() => {
+    window.addEventListener("scroll", changeHeaderBg);
+  }, []);
+
   return (
     <div className="w-full flex justify-center">
-      <div className=" fixed flex justify-around min-h-[100px] items-center w-[95%]  z-10 ">
+      <div
+        className={` fixed flex justify-around min-h-[80px] items-center w-full  z-[100]  ${
+          headerColor ? "bg-[#ead7b1]" : "bg-transparent"
+        }`}
+      >
         <div className="p-2  rounded-md">
           <Link to="/">
             {" "}

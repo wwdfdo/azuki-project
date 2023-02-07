@@ -1,13 +1,11 @@
 import React from "react";
-import Branz from "../images/beanz2.mp4";
 import Rock from "../images/rock.png";
 import Cowgirl from "../images/maincowgirl1.png";
 import { MdKeyboardArrowRight } from "react-icons/md";
-import "./VideoBg.css";
 
 function VideoBg() {
   return (
-    <div className="relative  w-full h-screen azuki-home-bg flex  items-end xl-items-center">
+    <div className="relative  w-full h-screen  flex  items-end xl-items-center">
       {/* <video loop autoPlay muted className="w-full h-screen object-cover">
         <source src={Branz} type="video/mp4" />
       </video> */}

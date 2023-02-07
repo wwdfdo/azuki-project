@@ -1,6 +1,6 @@
 import React from "react";
 import "./Roadmap.css";
-import girl from "../images/cartoon-girl.webp";
+import girl from "../images/maincowgirl1.png";
 import parishoots from "../images/parishoots.webp";
 import bottle from "../images/bottle.webp";
 import lostSurvivors from "../images/lost-survivors.webp";
@@ -24,7 +24,7 @@ function Roadmap() {
           </p>
         </div>
         <div className="grid grid-cols-5 mt-12">
-          <div className=" bg-gray-200 w-[302px] h-[480px] survivors relative item">
+          <div className=" bg-gray-200 w-[302px] h-[480px] survivors relative item cursor-pointer">
             <svg class="clips">
               <clipPath id="survivors-clip" clipPathUnits="objectBoundingBox">
                 <path d="M0,0.042 C0,0.019,0.03,0,0.066,0 H0.934 C0.973,0,1,0.022,1,0.046 L0.839,0.963 C0.836,0.984,0.807,1,0.774,1 H0.066 C0.03,1,0,0.981,0,0.958 V0.042"></path>
@@ -38,14 +38,14 @@ function Roadmap() {
               Survivors
             </div>
             <div className=" absolute bottom-0 right-0 animation survivor-girl">
-              <img src={girl} alt="" />
+              <img src={girl} className="w-[60%]" alt="" />
             </div>
 
             <div className="absolute z-[100] top-0 opacity-0 card-outline ">
               <svg width="302" height="480" viewBox="0 0 302 480" fill="none">
                 <path
                   d="M20 1H281.684C292.998 1 301.805 10.827 300.57 22.0739L252.255 462.074C251.197 471.707 243.059 479 233.368 479H20C9.50659 479 1 470.493 1 460V20C1 9.5066 9.50659 1 20 1Z"
-                  stroke="#0963F6"
+                  stroke="#000"
                   stroke-width="2"
                 ></path>
               </svg>

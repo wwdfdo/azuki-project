@@ -22,17 +22,17 @@ export const menus = [
   {
     id: 4,
     name: "ROADMAP",
-    // url: "/roadmap",
+    url: "/roadmap",
   },
   {
     id: 5,
     name: "MORE",
-    // url: "/roadmapTwo",
+    //url: "/roadmapTwo",
   },
   {
     id: 6,
     name: "BUY",
-    // url: "/roadmapThree",
+    //url: "/roadmapThree",
   },
 
   // {
