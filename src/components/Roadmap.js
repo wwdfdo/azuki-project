@@ -1,6 +1,12 @@
 import React from "react";
 import "./Roadmap.css";
 import girl from "../images/maincowgirl1.png";
+import cowboy from "../images/cowboy.png";
+import roadmapimg1 from "../images/roadmapimg1.png";
+import roadmapimg2 from "../images/roadmapimg2.png";
+import roadmapimg5 from "../images/roadmapimg5.png";
+import roadmapimg3 from "../images/roadmapimg3.png";
+import roadmapimg4 from "../images/roadmapimg4.png";
 import parishoots from "../images/parishoots.webp";
 import bottle from "../images/bottle.webp";
 import lostSurvivors from "../images/lost-survivors.webp";
@@ -52,7 +58,7 @@ function Roadmap() {
             </div>
           </div>
           <div className="relative w-[293px]">
-            <div className="bg-[#c03540] item-parishoot w-[314px] h-[283px] item relative">
+            <div className=" bg-slate-300 item-parishoot w-[314px] h-[283px] item relative">
               <svg class="clips">
                 <clipPath id="what-clip" clipPathUnits="objectBoundingBox">
                   <path d="M0.089,0.063 C0.092,0.027,0.12,0,0.153,0 H0.887 C0.921,0,0.949,0.029,0.951,0.066 L1,0.819 C1,0.857,0.979,0.891,0.944,0.895 L0.074,1 C0.032,1,-0.002,0.966,0.002,0.921 L0.089,0.063"></path>
@@ -67,8 +73,8 @@ function Roadmap() {
                 </span>
                 ??????
               </div>
-              <div className="absolute -top-10 right-6 parishoots animation">
-                <img src={parishoots} className="w-[13rem]" alt="" />
+              <div className="absolute top-0 right-6 parishoots animation">
+                <img src={cowboy} className="w-[12rem]" alt="" />
               </div>
 
               <div className="absolute z-[100] top-0 opacity-0 card-outline ">
@@ -97,7 +103,7 @@ function Roadmap() {
                 ATSUI HOUSE
               </div>
               <div className=" absolute bottom-5 w-[10rem] right-4 bottle animation">
-                <img src={bottle} alt="" />
+                <img src={roadmapimg3} alt="" />
               </div>
 
               <div className="absolute top-0 z-[100] opacity-0 card-outline ">
@@ -111,7 +117,7 @@ function Roadmap() {
               </div>
             </div>
           </div>
-          <div className="bg-[#c03540] w-[277px] h-[480px] relative fourth-card ml-8 item">
+          <div className="bg-[#EBC08E] w-[277px] h-[480px] relative fourth-card ml-8 item">
             <svg class="clips">
               <clipPath id="enter-clip" clipPathUnits="objectBoundingBox">
                 <path d="M0.002,0.045 C-0.001,0.021,0.033,0,0.075,0 H0.867 C0.906,0,0.939,0.018,0.94,0.04 L1,0.957 C1,0.98,0.97,1,0.929,1 H0.195 C0.157,1,0.125,0.983,0.123,0.961 L0.002,0.045"></path>
@@ -125,7 +131,7 @@ function Roadmap() {
               LOST SURVIVOR
             </div>
             <div className=" absolute w-4/5 right-0 bottom-3 lost-survivor animation">
-              <img src={lostSurvivors} alt="" />
+              <img src={roadmapimg1} alt="" />
             </div>
             <div className="absolute top-0 z-[100] opacity-0 card-outline">
               <svg width="276" height="480" viewBox="0 0 276 480" fill="none">
@@ -152,8 +158,8 @@ function Roadmap() {
               </span>
               SUMMIT
             </div>
-            <div className="absolute w-[97%] left-0 top-4 speaker animation">
-              <img src={speaker} alt="" />
+            <div className="absolute w-[97%] left-[10%] top-4 speaker animation">
+              <img src={roadmapimg5} className="w-[80%]" alt="" />
             </div>
             <div className="absolute top-0 z-[100] opacity-0 card-outline ">
               <svg width="278" height="480" viewBox="0 0 278 480" fill="none">
@@ -179,7 +185,7 @@ function Roadmap() {
               MINT Phase 2
             </div>
             <div className="absolute bottom-8 back-girl animation">
-              <img src={backGirl} alt="" />
+              <img src={roadmapimg4} alt="" />
             </div>
             <div className="absolute top-0 opacity-0  z-[100] card-outline">
               <svg width="283" height="480" viewBox="0 0 283 480" fill="none">
