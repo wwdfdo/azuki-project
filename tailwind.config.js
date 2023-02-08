@@ -5,7 +5,11 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        sans: [`'Goudy Bookletter 1911'`, ...defaultTheme.fontFamily.sans],
+        sans: [`'oldwestern'`, ...defaultTheme.fontFamily.sans],
+      },
+
+      backgroundImage: {
+        "horse-bg": "url('/src/images/horsebg.png')",
       },
     },
   },

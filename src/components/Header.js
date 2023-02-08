@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../images/outlawlogo.png";
+import logo from "../images/whiteoutlawlogo.png";
 import { menus } from "../arrays/menus";
 import { Link } from "react-router-dom";
 import { menuButtons } from "../arrays/menuButtons";
@@ -31,7 +31,8 @@ function Header() {
         <div className="p-2  rounded-md">
           <Link to="/">
             {" "}
-            <img className="w-[60px] " src={logo} alt="" />
+            {/* <img className="w-[60px] " src={logo} alt="" /> */}
+            <img className="w-[50px] " src={logo} alt="" />
             {/* <p className="text-white uppercase font-extrabold text-sm">
               The Outlaw's Last Ride
             </p> */}
@@ -41,7 +42,7 @@ function Header() {
           {menus.map((menu) => (
             <Link
               to={menu.url}
-              className="tracking-[.1825rem] font-bold text-[0.8rem] px-3 h-7 text-center rounded-md flex items-center cursor-pointer uppercase "
+              className="tracking-[.1825rem] font-normal text-[0.8rem] px-3 h-7 text-center rounded-md flex items-center cursor-pointer uppercase "
             >
               <li> {menu.name}</li>
             </Link>

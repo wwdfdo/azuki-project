@@ -10,3 +10,15 @@
     clip-path: inset(10px round 80px 20px 30px 10px);
   }
 }
+
+@font-face {
+  font-family: "oldwestern";
+  src: url("./fonts/Go_2_Old_Western.eot");
+  src: url("./fonts/Go_2_Old_Western.eot") format("embedded-opentype"),
+    url("./fonts/Go_2_Old_Western.woff2") format("woff2"),
+    url("./fonts/Go_2_Old_Western.woff") format("woff"),
+    url("./fonts/Go_2_Old_Western.ttf") format("truetype");
+
+  font-weight: normal;
+  font-style: normal;
+}
