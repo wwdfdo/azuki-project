@@ -4,7 +4,7 @@ import "./Layout.css";
 
 function Layout(props) {
   return (
-    <div className="abigail-layout-bg text-white font-normal">
+    <div className="bg-black text-white font-normal">
       <Header />
       <main>{props.children}</main>
     </div>

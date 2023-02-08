@@ -3,7 +3,7 @@ import React from "react";
 const QsectionFooter = () => {
   return (
     <div className="mt-10">
-      <p className=" font-semibold text-center">
+      <p className="text-2xl text-center">
         Haven’t got your answer?
         <span className="ml-2 text-blue-600">
           <a href="#" target="_blank">

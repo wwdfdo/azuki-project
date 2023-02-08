@@ -25,14 +25,14 @@ function Header() {
     <div className="w-full flex justify-center">
       <div
         className={` fixed flex justify-around min-h-[80px] items-center w-full  z-[100]  ${
-          headerColor ? "bg-[#ead7b1]" : "bg-transparent"
+          headerColor ? "bg-[#d40000]" : "bg-transparent"
         }`}
       >
         <div className="p-2  rounded-md">
           <Link to="/">
             {" "}
             {/* <img className="w-[60px] " src={logo} alt="" /> */}
-            <img className="w-[50px] " src={logo} alt="" />
+            <img className="w-[60px] " src={logo} alt="" />
             {/* <p className="text-white uppercase font-extrabold text-sm">
               The Outlaw's Last Ride
             </p> */}
