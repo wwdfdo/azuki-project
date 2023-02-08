@@ -1,6 +1,6 @@
 import React from "react";
 // import worldbg from "../images/world1.mp4";
-import horsebg from "../images/horsebg.png";
+// import horsebg from "../images/horsebg.png";
 
 function Worldbg() {
   return (

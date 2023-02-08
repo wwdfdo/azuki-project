@@ -3,16 +3,16 @@ import "./Roadmap.css";
 import girl from "../images/maincowgirl1.png";
 import cowboy from "../images/cowboy.png";
 import roadmapimg1 from "../images/roadmapimg1.png";
-import roadmapimg2 from "../images/roadmapimg2.png";
+// import roadmapimg2 from "../images/roadmapimg2.png";
 import roadmapimg5 from "../images/roadmapimg5.png";
 import roadmapimg3 from "../images/roadmapimg3.png";
 import roadmapimg4 from "../images/roadmapimg4.png";
-import parishoots from "../images/parishoots.webp";
-import bottle from "../images/bottle.webp";
-import lostSurvivors from "../images/lost-survivors.webp";
-import speaker from "../images/speaker.webp";
+// import parishoots from "../images/parishoots.webp";
+// import bottle from "../images/bottle.webp";
+// import lostSurvivors from "../images/lost-survivors.webp";
+// import speaker from "../images/speaker.webp";
 import { IoIosLock } from "react-icons/io";
-import backGirl from "../images/back-girl.webp";
+// import backGirl from "../images/back-girl.webp";
 
 function Roadmap() {
   return (

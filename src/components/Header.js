@@ -41,6 +41,7 @@ function Header() {
         <ul className="flex gap-5 items-center">
           {menus.map((menu) => (
             <Link
+              key={menu.id}
               to={menu.url}
               className="tracking-[.1825rem] font-normal text-[0.8rem] px-3 h-7 text-center rounded-md flex items-center cursor-pointer uppercase "
             >
@@ -52,6 +53,7 @@ function Header() {
         <ul className="flex gap-5 items-center">
           {menuButtons.map((menuButton) => (
             <Link
+              key={menuButton.id}
               to={menuButton.url}
               className="tracking-[.1825rem] font-bold text-[0.8rem] px-3 h-7 text-center rounded-md flex items-center cursor-pointer uppercase "
             >

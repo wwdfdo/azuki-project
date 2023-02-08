@@ -1,6 +1,6 @@
 import React from "react";
 import QuestionSection from "../components/Questions/QuestionSection";
-import VideoBg from "../components/VideoBg";
+// import VideoBg from "../components/VideoBg";
 import Worldbg from "../components/Worldbg";
 
 function HomePage() {
