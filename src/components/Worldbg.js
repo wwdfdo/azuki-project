@@ -9,9 +9,9 @@ function Worldbg() {
         <source src={worldbg} type="video/mp4" />
       </video> */}
 
-      <div className="  w-[1/3] mx-auto pl-[25%] flex pt-[12%] ">
+      <div className="  w-[1/3] mx-auto pl-[20%] flex pt-[10%] ">
         <div className="  flex flex-col gap-5 justify-start ">
-          <h2 className="text-[4rem] xl-text-[5.2rem]  ">
+          <h2 className="text-[4.3rem] xl-text-[5.2rem]  ">
             Embark on a Journey with <br /> Abigail Marston in <br />
             The Outlaw's Last Ride
           </h2>

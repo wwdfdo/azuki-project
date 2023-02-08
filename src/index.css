@@ -1,14 +1,3 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-@layer utilities {
-  .clip-your-needful-style {
-    -webkit-clip-path: inset(10px round 80px 20px 30px 10px);
-    clip-path: inset(10px round 80px 20px 30px 10px);
-  }
-}
-
 @font-face {
   font-family: "oldwestern";
   src: url("./fonts/Go_2_Old_Western.eot");
@@ -19,4 +8,12 @@
 
   font-weight: normal;
   font-style: normal;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: oldwestern !important;
 }
