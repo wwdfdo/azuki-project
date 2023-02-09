@@ -8,6 +8,7 @@ import Worldbg from "./components/Worldbg";
 import RoadmapTwo from "./components/RoadmapTwo";
 import RoadmapThree from "./components/RoadmapThree";
 import HomePage from "./pages/HomePage";
+import WorldBgOne from "./components/WorldBgOne";
 
 function App() {
   return (
@@ -18,7 +19,7 @@ function App() {
           <Route path="/" element={<HomePage />} />
           <Route path="/gallery" element={<Gallery />} />
           <Route path="/roadmap" element={<Roadmap />} />
-          <Route path="/worldbg" element={<Worldbg />} />
+          <Route path="/worldbg" element={<WorldBgOne />} />
           <Route path="/roadmapTwo" element={<RoadmapTwo />} />
           <Route path="/roadmapThree" element={<RoadmapThree />} />
         </Routes>
