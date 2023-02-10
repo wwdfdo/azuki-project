@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../images/whiteoutlawlogo.png";
+import logo from "../images/logov1.png";
 import { menus } from "../arrays/menus";
 import { Link } from "react-router-dom";
 import { navButtons } from "../arrays/navButtons";
@@ -22,7 +22,7 @@ function Header2() {
   }, []);
 
   return (
-    <div className="w-full flex justify-center">
+    <div className="w-full flex justify-center ">
       <div
         className={` fixed flex justify-around min-h-[80px] items-center w-full  z-[100]  ${
           headerColor ? "bg-[#d40000]" : "bg-transparent"
@@ -55,7 +55,7 @@ function Header2() {
             <Link
               key={navButton.id}
               to={navButton.url}
-              className={`tracking-[.2825rem] text-[1rem]  h-8 text-center  flex items-center cursor-pointer uppercase ${navButton.style}`}
+              className={` justify-center  h-8 text-center  flex items-center cursor-pointer uppercase ${navButton.style}`}
             >
               <li> {navButton.name}</li>
             </Link>

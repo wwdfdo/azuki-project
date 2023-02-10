@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../images/whiteoutlawlogo.png";
+import logo from "../images/logov1.png";
 import { menus } from "../arrays/menus";
 import { Link } from "react-router-dom";
 import { menuButtons } from "../arrays/menuButtons";

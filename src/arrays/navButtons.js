@@ -13,7 +13,8 @@ export const navButtons = [
   {
     id: 2,
     name: "Play",
-    style: "border-solid border-2 border-white px-4 rounded-2xl",
+    style:
+      "border-solid border-2 border-white px-5 rounded-2xl tracking-[.3825rem] text-[1rem]",
     url: "/",
   },
 ];
