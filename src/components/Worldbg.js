@@ -1,8 +1,8 @@
 import React from "react";
 // import worldbg from "../images/world1.mp4";
 // import horsebg from "../images/horsebg.png";
-import { menuButtons } from "../arrays/menuButtons";
-import { Link } from "react-router-dom";
+
+import SocialSideMenu from "./SocialSideMenu";
 
 function Worldbg() {
   return (
@@ -23,18 +23,7 @@ function Worldbg() {
           </h2>
         </div>
       </div>
-      <ul className="flex flex-col gap-5 items-center absolute right-5 bottom-10">
-        <div className="h-32 w-[1px] bg-white"></div>
-        {menuButtons.map((menuButton) => (
-          <Link
-            key={menuButton.id}
-            to={menuButton.url}
-            className="tracking-[.1825rem] font-bold text-[0.8rem] px-3 h-7 text-center rounded-md flex items-center cursor-pointer uppercase "
-          >
-            <li> {menuButton.name}</li>
-          </Link>
-        ))}
-      </ul>
+      <SocialSideMenu />
     </div>
   );
 }

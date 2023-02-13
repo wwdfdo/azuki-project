@@ -24,7 +24,7 @@ function Header2() {
   return (
     <div className="w-full flex justify-center ">
       <div
-        className={` fixed flex justify-around min-h-[80px] items-center w-full  z-[100]  ${
+        className={` fixed flex justify-around min-h-[80px] items-center w-full  z-[1000]  ${
           headerColor ? "bg-[#d40000]" : "bg-transparent"
         }`}
       >
