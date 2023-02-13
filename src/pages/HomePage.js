@@ -9,6 +9,7 @@ function HomePage() {
     <div>
       {/* <VideoBg /> */}
       {/* <Worldbg /> */}
+
       <WorldSlider />
       <QuestionSection />
     </div>
