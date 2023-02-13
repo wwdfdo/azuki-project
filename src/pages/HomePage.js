@@ -1,7 +1,7 @@
 import React from "react";
 import QuestionSection from "../components/Questions/QuestionSection";
 // import VideoBg from "../components/VideoBg";
-// import Worldbg from "../components/Worldbg";
+import Worldbg from "../components/Worldbg";
 import WorldSlider from "../components/WorldSlider";
 
 function HomePage() {
